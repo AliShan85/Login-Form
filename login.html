@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-image: url("Background img.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            -webkit-user-select: none;
+            -webkit-touch-callout: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        .main{
+            width: 310px;
+            height: 370px;
+            margin: 70px auto;
+            border:2px solid white;
+            border-radius: 10px;
+            padding: 50px 10px 50px 0px;
+        }
+         form{
+            padding: 40px 18px 10px 50px;
+        }
+         h1{
+            padding: 0px 133px;
+            color: white;
+        }
+        .main h1{
+            margin: -13px;
+        }
+        label{
+            float: left;
+            font-size: 17px;
+            padding: 5px 100px 4px 1px;
+            color: white;
+        }
+        input{
+            height: 30px;
+            border-top:none;
+            border-left:none;
+            border-right:none;
+            border-bottom-color:rgb(255, 255, 255);
+            outline: none;
+            background-color: transparent;
+            caret-color: white;
+            color: white;
+        }
+        a{
+            font-size: 13px;
+            padding: 0px 19px;
+            float: right;
+            text-decoration: none;
+            color:white ;
+        }
+        button{
+            width: 135px;
+            height: 35px;
+            margin: 0px 0px 0px 35px;
+            border-radius: 7px;
+            border-style:1px;
+            font-size: 20px;
+            background-color:transparent;
+            border-color:#3687f8;
+            cursor: pointer;
+            color:black;
+        }
+        button:hover{
+            color:white;
+            font-size: 21px;
+        }
+        #signup{
+            text-align: right;
+            font-size: 13px;
+            padding:0px 47px 0px 12px;
+            text-align: inherit;
+        }
+        .main #signup{
+            margin: -16.2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Login</h1>  
+    <form action="" method="GET">
+        <label for="email">Email</label>
+        <input type="email" name="user_email" id="email" required size="30" placeholder="Email" autofocus><br><br><br><br>
+        <label for="password">Password</label>
+        <input type="password" name="user_password" id="password" required size="30" placeholder="Password"><br><br>
+        <a href="Forget my password.html">Forget my Password</a><br><br><br>
+        <button type="submit">Login</button><br><br>
+        <p>Don't have an account yet? </p>
+        <a href="Signup.html" id="signup">Signup</a>
+        
+    </form>
+</div>
+</body>
+</html>

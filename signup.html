@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        body{
+            background-image: url("Background img.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            -webkit-user-select: none;
+            -webkit-touch-callout: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        .main{
+            width: 310px;
+            height: 399px;
+            margin: 55px auto;
+            border:2px solid white;
+            border-radius: 10px;
+            padding: 50px 10px 50px 0px;
+        }
+         form{
+            padding: 40px 18px 10px 50px;
+        }
+         h1{
+            padding: 0px 123px;
+            color: white;
+        }
+        .main h1{
+            margin: -23px;
+        }
+        label{
+            float: left;
+            font-size: 17px;
+            padding: 5px 100px 4px 1px;
+            color: white;
+        }
+        input{
+            height: 30px;
+            border-top:none;
+            border-left:none;
+            border-right:none;
+            border-bottom-color:white ;
+            outline: none;
+            background-color: transparent;
+            color: white;
+        }
+        a{
+            font-size: 13px;
+            padding: 0px 19px;
+            float: right;
+            text-decoration: none;
+            color:white ;
+        }
+        button{
+            width: 227px;
+            height: 35px;
+            border-radius: 7px;
+            border-style:1px;
+            font-size: 20px;
+            background-color:transparent;
+            border-color:#3687f8;
+            cursor: pointer;
+            color:black;
+        }
+        button:hover{
+            color:white;
+            font-size: 21px;
+        }
+        p{
+            padding: 0px 34px;
+        }
+        #signup{
+            text-align: right;
+            font-size: 13px;
+            padding:0px 75px 0px 12px;
+        }
+        .main #signup{
+            margin: -16.2px;
+        }
+       .main .text-secondary{
+            text-align: left;
+            padding: 0px 0px 60px 1px;
+        }
+         #privacypolicy{
+            padding: 0px 94px 0px 0px;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1>Sign up</h1><br>  
+    <form action="" method="GET">
+        <label for="fullname">Full Name</label>
+        <input type="text" name="username" id="fullname" placeholder="User Name" required size="30" autofocus><br><br>
+        <label for="email">Email</label>
+        <input type="email" name="user_email" id="email" required size="30" placeholder="Email"><br><br>
+        <label for="password">Password</label>
+        <input type="password" name="user_password" id="password" required size="30" placeholder="Password"><br><br><br>
+        <button type="submit">Creat an  account</button><br><br>
+        <p>Have an account? </p>
+        <a href="login form.html" id="signup">Login</a><br>
+        <a id="privacypolicy" href="#">Privacy Policy</a>
+    </form>
+</div>
+</body>
+</html>
